@@ -3,7 +3,7 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
 async function getdata(country="Cairo") {
-  var res = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=2b9728e05457471eb8c84704232912&q=${country}&days=3&aqi=no&alerts=no`);
+  var res = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=2b9728e05457471eb8c84704232912&q=${country}&days=3&aqi=no&alerts=no`);
   result = await res.json();
   console.log(result.forecast.forecastday);
   innerData();
