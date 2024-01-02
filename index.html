@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="Home">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <img src="images/logo.png" />
+                <div class="p-4">
+                    <a class="navbar-brand text-light fs-4" href="#">Weather</a>
+                    <p class="text-light fs-6">tagline goes here</p>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-light active p-4" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light p-4" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light p-4" href="#">Live Camera</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light p-4" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light p-4" href="#">Contact</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <input type="search" id="input" class="form-control w-75 m-auto mt-5 bg-transparent" placeholder="Search ..." />
+        <div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="item">
+                            <div class="d-flex justify-content-between">
+                                <p id="day" class="text-light"></p>
+                                <p id="date" class="text-light"></p>
+                            </div>
+                            <h1 class="text-light" id="country"></h1>
+                            <div class="d-flex justify-content-around">
+                                <h2 class="display-1 fw-semibold text-light" id="dgree">14.8<sup>o</sup>C</h2>
+                                <img src="" id="stutus_img" />
+                            </div>
+                            <i class="bs bs-moon"></i>
+                            <p class="text-info" id="stutus">Clear</p>
+                            <div class="pb-3 d-flex justify-content-between">
+                                <span class="p-2 text-muted"><img src="images/icon-umberella.png" /> 20%</span>
+                                <span class="p-2 text-muted"><img src="images/icon-wind.png" /> 18km/h</span>
+                                <span class="p-2 text-muted"><img src="images/icon-compass.png" /> East</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item">
+                            <p id="day1" class="text-center text-light"></p>
+                            <div class="m-auto w-25">
+                                <img src="" id="stutus_img_2" />
+                            </div>
+                            <p class="text-center text-light fw-bold fs-2" id="tempx">14.1<sup>o</sup>C</p>
+                            <p class="text-center text-light fw-bold fs-4" id="tempn">14.1<sup>o</sup>C</p>
+                            <i class="bs bs-moon"></i>
+                            <p class="text-info text-center text-info" id="stuts2">Patchy rain possible</p>
+                            <div class="pb-3 text-center">
+                                <span class="p-2 text-light"><img src="images/icon-umberella.png" /> 20%</span>
+                                <span class="p-2 text-light"><img src="images/icon-wind.png" /> 18km/h</span>
+                                <span class="p-2 text-light"><img src="images/icon-compass.png" /> East</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item">
+                            <p id="day2" class="text-center text-light"></p>
+
+                            <div class="m-auto w-25">
+                                <img src="" id="stutus_img_3" />
+                            </div>
+                            <p class="text-center text-light fw-bold fs-2" id="tempxx">14.1<sup>o</sup>C</p>
+                            <p class="text-center text-light fw-bold fs-4" id="tempnn">14.1<sup>o</sup>C</p>
+                            <i class="bs bs-moon"></i>
+                            <p class="text-info text-center text-info" id="stuts3">Patchy rain possible</p>
+                            <div class="pb-3 text-center">
+                                <span class="p-2 text-light"><img src="images/icon-umberella.png" /> 20%</span>
+                                <span class="p-2 text-light"><img src="images/icon-wind.png" /> 18km/h</span>
+                                <span class="p-2 text-light"><img src="images/icon-compass.png" /> East</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
